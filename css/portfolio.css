@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/Background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#contenedor {
+	width: 90%;
+	margin: auto;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	height: 30%;
+	width: 100%;
+	background-image: url(../images/BackgroundWhite25.png);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo img {
+	width: 100px;
+	height: 50px;
+	margin: 20px;
+}
+
+#logo h4 {
+	font-family: Montserrat-Bold;
+	color: white;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+nav a {
+	font-family: Montserrat-Bold;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav a:hover {
+	font-size: 35px;
+}
+
+main {
+	background-image: url(../images/BackgroundWhite25.png);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	flex-grow: 1;
+}
+
+#banner {
+	background-image: url(../images/BackgroundBanner.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	height: 30%;
+}
+
+#banner img {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+section {
+	color: white;
+	width: 40%;
+}
+
+aside {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	font-family: Montserrat-Bold;
+	color: white;
+	margin-bottom: 20px;
+}
+
+aside div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 350px;
+	margin: 20px;
+}
+
+aside img {
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+}
+
+aside p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+footer {
+	background-image: url(../images/BackgroundWhite25.png);
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	height: auto;
+	padding: 20px;
+	flex-shrink: 0;
+}
+
+footer div {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer h4 {
+	font-family: Montserrat-Bold;
+	color: white;
+	font-size: 30px;
+}
+
+footer button {
+	font-family: Montserrat-BoldItalic;
+	background-color: #0a015c;
+	color: white;
+	font-size: 30px;
+	margin: 20px;
+	border-radius: 60px;
+	border-color: transparent;
+	width: 200px;
+	height: 60px;
+}
+
+footer button:hover {
+	background-color: white;
+	color: #0a015c;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+}
+
+footer img:hover {
+	width: 60px;
+	height: 60px;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#contact h3 {
+	font-family: Montserrat-Medium;
+	color: white;
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBoldItalic;
+	src: url(../fonts/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-BoldItalic;
+	src: url(../fonts/Montserrat-BoldItalic.ttf);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>D/A Development</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div id= "contenedor"> 
+	<header>
+		<div id="logo">
+			<a href="http://localhost:80/PortfolioPage/index.html"><img src="images/Logo.png"></a>
+			<h4>Development</h4>
+		</div>
+		<nav>
+			<a href="http://localhost:80/PortfolioPage/files/portfolio.html">PORTFOLIO</a>
+			<a href="http://localhost:80/PortfolioPage/files/services.html">SERVICES</a>
+			<a href="http://localhost:80/PortfolioPage/files/about_me.html">ABOUT ME</a>
+		</nav>
+	</header>
+	<main>
+		<div id="banner">
+			<img src="images/IosLogo.png" alt="">
+			<img src="images/AndroidLogo.png" alt="">
+			<img src="images/LogoBanner.png" alt="">
+			<img src="images/NodeLogo.png" alt="">
+			<img src="images/RedisLogo.png" alt="">
+		</div>
+
+		<div id="middle" style="display: flex;">
+			<section>
+				<h3>ALVAREZ M. DANIEL</h3>
+				<h2>FULLSTACK Development <br> ANDROID, IOS APPS <br> NODE, SOCKET, REDIS.</h2>
+			</section>
+	
+			<aside>
+				<div id="galeria">
+					<div>
+						<img class="img1" src="images/PortfolioIMG1.png" alt="">
+						<img class="img2" src="images/PortfolioIMG2.png" alt="">
+						<img class="img3" src="images/PortfolioIMG3.png" alt="">
+						<img class="img4" src="images/PortfolioIMG4.png" alt="">
+					</div>
+				</div>
+			</aside>
+		</div>
+
+		<footer>
+			<div>
+				<div id="contact">
+					<h3>Contact:</h3>
+					<h4>PRODUCTION@DAM.CO</h4>
+				</div>
+				<button onclick="copyEmail()">Copy</button>
+			</div>
+			<a target="_blank" href="https://github.com/danielalvarezm527"><img src="images/GitHubLogo.png" alt=""></a>
+			<a target="_blank" href="https://www.linkedin.com/in/daniel-alvarez-moncada-5827b1162/"><img src="images/LinkedinLogo.png" alt=""></a>
+			<a target="_blank" href="https://wa.me/+573022920851"><img src="images/WhatsAppLogo.png" alt=""></a>
+			<a target="_blank" href="https://www.instagram.com/d.alvarez03/"><img src="images/InstagramLogo.png" alt=""></a>
+		</footer>
+	</main>
+	<script>
+		function copyEmail() {
+			navigator.clipboard.writeText("PRODUCTION@DAM.CO");
+		}
+	</script>
+</body>
+</html>
